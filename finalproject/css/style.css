@@ -1,0 +1,137 @@
+html{
+	background-color: yellow;
+	padding: 10px;
+}
+body{
+	margin: 0;
+}
+h1{
+	font-family: 'Bangers', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: #FF0000;
+	text-decoration: underline;
+	/*for all h1*/
+}
+p{
+	font-family: 'Amatic', cursive;
+	line-height: 2;
+}
+span{
+	color: #FF0000;
+	/*changes the color of span*/
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.hero{
+	height: 500px;
+	background-image: url('../img/ps3-controller-hi.png');
+	background-size: cover;
+	border-radius: 30px;
+	margin-top: 40px;
+}
+main{
+	margin-bottom: 40px;
+}
+header{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #FF0000;
+	border-bottom: 10px solid #247DD6;
+}
+.logo{
+	float: left;
+	display: inline-block;
+}
+.logo a{
+	font-family: 'Bangers',cursive;
+	font-size: 35px;
+	font-weight: 700;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+}
+nav{
+	float: right;
+}
+nav ul{
+	padding-left: 0px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+nav ul li a{
+	font-family: 'Amatic', cursive;
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+nav ul li a:hover;{
+	color: black;
+	text-shadow: 2px 2px 2px white;
+}
+footer{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #FF0000;
+	border-bottom: 10px solid #247DD6;
+	clear: both;
+}
+footer p{
+	text-align: center;
+	color: white;
+}
+article, section{
+	width: 550px;
+	margin-bottom: 40px;
+	position: relative;
+	float: left;
+}
+article ul{
+	font-family: 'Amatic', cursive;
+}
+aside{
+	width: 350px;
+	float: right;
+	background-color: #FF0000;
+	padding: 25px;
+	/*position: relative;*/
+	top: 33px;
+	color: white;
+	border: 5px solid #247DD6;
+}
+header h2, aside h2{
+	font-family: 'Bangers', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+.form{
+	float: right;
+	margin-right: 10px;
+}
+section p{
+	color: black;
+}
+main ul li{
+	font-family: bangers;
+	font-size: 35px;
+	color: blue;
+	text-decoration: underline;
+	padding: 20px;
+}
+main p{
+	font-family: bangers;
+	font-size: 35px;
+	color: blue;
+	padding: 20px;
+}
