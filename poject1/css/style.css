@@ -1,0 +1,99 @@
+html{
+	background-color: white;
+}
+.top ul li{
+	float: right;
+	display: inline-block;
+	margin: 10px;
+}
+.top /*h1*/{
+	font-family: stencil;
+	font-size: 26px;
+	padding: 10px;
+	/*margin-left: 40px;*/
+	color: white;
+	background-color: #00CED1;
+	border-radius: 10px;
+}
+button{
+	color: white;
+	background-color: white;
+	border-radius: 10px;
+}
+/*div {
+    width: 120px;
+    height: 250px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}*/
+div/*:hover*/ {
+    width: 1330px;
+    height: 150px;
+}
+aside{
+	padding: 5px;
+	border: solid #00CED1 5px;
+	margin: 10px;
+	float: left;
+	color: #00CED1;
+}
+aside ul li{
+	margin-bottom: 100px;
+}
+main h2{
+	padding: 5px;
+	text-decoration: underline;
+}
+main{
+	padding: 5px;
+	margin: 10px;
+	float: right;
+	color: #00CED1;
+/*	border: solid #00CED1 5px;
+	border-radius: 10px;	
+*/}
+footer{
+	color: #00CED1;
+	clear: both;
+	padding: 5px;
+}
+form{
+	color: #00CED1;
+	padding: 20px;
+}
+h2{
+	background-color: #00CED1;
+	border-radius: 5px;
+	color: white;
+	text-decoration: underline;
+	padding: 20px;
+}
+main p:before { 
+	text-decoration: underline;
+	padding: 2px;
+	border-radius: 6px;
+    content: "About:";
+    background-color: silver;
+    color: black;
+    font-weight: bold;
+}
+main p:after{
+	background-color: silver;
+	color: black;
+	font-weight: bold;
+	padding: 2px;
+	border-radius: 6px;
+	text-decoration: underline;
+	content: "Learn More in the About Page";
+}
+footer p{
+	padding: 5px;
+}
+.hero{
+	color: #00CED1;
+	padding: 5px;
+}
+a:hover{
+	background-color: #00CED1;
+	text-transform: uppercase;
+}
